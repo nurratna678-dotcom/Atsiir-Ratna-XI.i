@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .tentang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    color: white;
+    background:#c7b8ea;
+  }
+  
+  .gambar {
+    flex: 1;
+  }
+  
+  .gambar img {
+    width: 100%;
+    height: outo;
+    display: block;
+    
+  }
+  .teks{
+    
+   
+  }
+  /* Responsive HP */
+  @media (max-width: 768px) {
+    .tentang {
+      flex-direction: column;
+    }
+  .gambar img {
+    border-bottom: 1px solid #eee;
+   }
+  }
+  
+  
+  
+  </style>
+</head>
+<body>
+<header>
+  
+  <h1> SMA NEGERI 9 CIREBON </h1>
+  <p> Selamat datang di website sekolah kami</p> 
+</header> 
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="tentang.html" style="color:yellow">Profil</a>
+  <a href="visi-misi.html">Visi-Misi</a>
+  <a href="eskul.html">Eskul</a>
+  <a href="kontak.html">Kontak</a>
+</nav>
+<main>
+  <section class="tentang">
+ <div class="gambar">
+   <img src="/profil.jpeg" alt="Foto Sekolah">
+    </div>
+    <div class="text"> 
+    <h2>Tentang Sekolah Kami</h2>
+    <p> 
+    Sekolah Kami berdiri sejak tahun 1999 dengan tujuan mencetak generasi yang berprestasi, berkarakter, dan siap menghadapi masa depan.
+    Fasilitas lengkap, guru berpengalaman, serta lingkungan belajar yang nyaman menjadi keunggulan sekolah ini.
+    </p>
+   </div>
+  </section>
+ </main>
+  
+</main>
+
+<footer>
+  &copy; 2025 SMA Negeri 9 Cirebon 
+</footer>
+  
+</body>
+</html>

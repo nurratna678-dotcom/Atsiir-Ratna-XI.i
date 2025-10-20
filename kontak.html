@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SMA Negeri 9 Cirebon</title>
+  <link rel="stylesheet" href="style.css">
+  <style type="text/css" media="all"></style>
+  <style>
+    .container {
+      display: flex;
+      max-width: 900px;
+      margin: auto;
+      background: lavender;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    
+  .kiri {
+    flex: 1;
+    padding: 30px;
+    border-right: 1px solid plum;
+  }
+  
+  .kiri h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .sosmed a {
+    display: block;
+    margin: 10px 0;
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .sosmed a:hover {
+    color: #007BFF;
+  }
+  /* Kolom kanan */
+  .kanan {
+    flex: 1;
+    padding: 30px;
+  }
+  
+  .kanan h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    font-weight: blod;
+    border-radius: 6px;
+    ccursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer {
+    background: #0b47a1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .kiri {
+      border-right: none;
+      border-bottom: 1px solid #;
+    }
+  }
+  </style>
+</head>
+<body>
+<header>
+  
+  <h1> SMA NEGERI 9 CIREBON </h1>
+  <p> Selamat datang di website sekolah kami</p> 
+</header> 
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="tentang.html">Profil</a>
+  <a href="visi-misi.html">Visi-Misi</a>
+  <a href="eskul.html">Eskul</a>
+  <a href="kontak.html"style="color:yellow">Kontak</a>
+</nav>
+<main>
+<h1>Hubungi Kami</h1>
+  <div class="container">
+    <!-- Kolom kiri -->
+  <div class="kiri">
+    <h1>Kontak Kami</h1>
+    <p>Silahkan hubungi atau ikuti sosial media kami:</p>
+  <div class="sosmed">
+    <a herf="#">📞 Telepon: +62 812-3456-7890</a>
+    <a herf="#">✉️ Email: info@sekolah.com</a>
+    <a herf="#">📍 Alamat: Jl. Merdeka No.12</a>
+    <br>
+    <a herf="#">🌐 Instagram</a>
+    <a herf="#">🌐 Facebook</a>
+    <a herf="#">🌐 YouTube</a>
+  </div>
+</div>
+  
+<!-- Kolom kanan -->
+<div class="kanan">
+  <h2>Kirim Pesan</h2>
+  <form>
+    <label for="nama">Nama:</label>
+    <input type="text" id="name" nama="name" placeholder="Masukkan nama">
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Masukkan email">
+    
+    <label for="pesan">Pesan:</label>
+    <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan..."></textarea>
+    
+    <button type="submit">Kirim</button>
+   </form>
+  </div>
+</div>
+</main>
+
+<footer>
+  &copy; 2025 SMA Negeri 9 Cirebon 
+</footer>
+  
+</body>
+</html>
